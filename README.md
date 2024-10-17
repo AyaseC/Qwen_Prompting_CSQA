@@ -9,7 +9,7 @@ The model is available [here](https://huggingface.co/Qwen/Qwen-7B)
 
 ## Setup & Use
 
-Follow the instruction for setting up Qwen2, then call the following command in terminal:
+Follow the instruction for setting up Qwen, then call the following command in terminal:
 
 ```
 CUDA_VISIBLE_DEVICES=0,1,2,3 python run.py --prompt cot --dataset "commonsense_qa" --model "Qwen/Qwen-7B" --batch_size 8 --icl_sample "commonsense_qa"
