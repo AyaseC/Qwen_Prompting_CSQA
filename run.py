@@ -23,7 +23,7 @@ def main():
     args = parser.parse_args()
 
     # Load the dataset
-    dataset = load_dataset(args.dataset,split="validation").to_pandas()[:100]
+    dataset = load_dataset(args.dataset,split="validation").to_pandas()
     train = load_dataset(args.icl_sample,split="train").to_pandas()
 
     # Load the model and tokenizer
