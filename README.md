@@ -6,6 +6,8 @@ The dataset is available [here](https://huggingface.co/datasets/tau/commonsense_
 
 The model is available [here](https://huggingface.co/Qwen/Qwen-7B)
 
+Some prompts I used can be found [here](https://github.com/AyaseC/Qwen_Prompting_CSQA/blob/main/prompts.ipynb)
+
 
 ## Setup & Use
 
