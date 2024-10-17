@@ -35,7 +35,7 @@ def load_models_tokenizer(path):
 
 model,tokenizer=load_models_tokenizer("Qwen/Qwen-7B")
 
-dataset = load_dataset("commonsense_qa",split="validation").to_pandas()[:100]
+dataset = load_dataset("commonsense_qa",split="validation").to_pandas()
 sample = load_dataset("commonsense_qa",split="train").to_pandas()
 
 def simple_prompt(question, concept, choices):
